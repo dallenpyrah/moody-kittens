@@ -1,0 +1,6 @@
+ if (document.getElementById("welcome") == true){
+    document.getElementById("welcome").remove("");
+  } else {
+    document.getElementById("message").classList.add("hidden")
+    document.getElementById("kitten").classList.remove("hidden")
+  }
