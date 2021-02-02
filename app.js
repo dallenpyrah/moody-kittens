@@ -172,6 +172,7 @@ function setKittenMood(kitten) {
   if (kitten.affection <= 0) {
     kitten.mood = "gone"
     kitten.affection = 0;
+    document.getElementById("buttons").classList.add("hidden")
   }
 
   saveKittens();
